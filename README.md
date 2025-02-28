@@ -1,6 +1,6 @@
 # Learn Modern AI Python
 
-This repo is part of the [Certified Cloud Native Applied Generative AI Engineer](https://docs.google.com/document/d/15usu1hkrrRLRjcq_3nCTT-0ljEcgiC44iSdvdqrCprk/edit?usp=sharing) program. It covers the first quarter of the course work:
+This repo is part of the [Panaversity Certified Agentic and Robotic AI Engineer](https://docs.google.com/document/d/15usu1hkrrRLRjcq_3nCTT-0ljEcgiC44iSdvdqrCprk/edit?usp=sharing) program. It covers the first quarter of the course work:
 
 ### AI-101: Modern AI Python Programming
 
