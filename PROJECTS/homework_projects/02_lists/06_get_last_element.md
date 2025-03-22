@@ -17,6 +17,7 @@ if __name__ == '__main__':
 
 ## Solution
 
+```bash
 def get_last_element(lst):
     """
     Prints the last element of the provided list.
@@ -26,7 +27,7 @@ def get_last_element(lst):
     print(lst[len(lst) - 1])
 
     # The line below works too!!
-    # print(lst[-1]) 
+    # print(lst[-1])
 
 # There is no need to edit code beyond this point
 
@@ -48,3 +49,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+```

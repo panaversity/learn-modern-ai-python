@@ -22,6 +22,7 @@ if __name__ == '__main__':
 
 ## Solution
 
+```bash
 def print_ones_digit(num):
     print("The ones digit is", num % 10)
 
@@ -34,3 +35,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+```

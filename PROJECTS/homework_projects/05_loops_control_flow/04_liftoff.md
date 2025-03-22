@@ -19,7 +19,7 @@ Liftoff!
 There are many ways to solve this problem. One approach is to use a for loop, and to use the for loop variable i. Recall that i will keep track of how many times the for loop has completed executing its body. As an example this code:
 
 for i in range(10):
-    print(i)
+print(i)
 
 Will print out the values 0, 1, 2, 3, 4, 5, 6, 7, 8, 9. The values printed in liftoff are 10 minus the number of times the for loop has completed.
 
@@ -38,3 +38,16 @@ if __name__ == '__main__':
 
 ## Solution
 
+```bash
+def main():
+    # Loop from 10 down to 1
+    for i in range(10, 0, -1):
+        print(i)
+
+    # Print liftoff message after countdown
+    print("Liftoff!")
+
+
+if __name__ == '__main__':
+    main()
+```

@@ -11,7 +11,7 @@ For example if the user enters the number 2 you would then print:
 64
 128
 
-Note that: 
+Note that:
 
 2 doubled is 4
 
@@ -25,7 +25,7 @@ We stop at 128 because that value is greater than 100.
 
 Maintain the current number in a variable named curr_value. When you double the number, you should be updating curr_value. Recall that you can double the value of curr_value using a line like:
 
-curr_value = curr_value * 2
+curr_value = curr_value \* 2
 
 This program should have a while loop and the while loop condition should test if curr_value is less than 100. Thus, your program will have the line:
 
@@ -46,3 +46,17 @@ if __name__ == '__main__':
 
 ## Solution
 
+```bash
+def main():
+    # Ask user to enter a number
+    curr_value = int(input("Enter a number: "))
+
+    # Keep doubling the number until it reaches or exceeds 100
+    while curr_value < 100:
+        curr_value *= 2  # Double the value
+        print(curr_value)  # Print the updated value
+
+
+if __name__ == '__main__':
+    main()
+```
