@@ -6,13 +6,13 @@ The Celsius scale is widely used to measure temperature, but places still use Fa
 
 The equation you should use for converting from Fahrenheit to Celsius is the following:
 
-degrees_celsius = (degrees_fahrenheit - 32) * 5.0/9.0
+degrees_celsius = (degrees_fahrenheit - 32) \* 5.0/9.0
 
 (Note. The .0 after the 5 and 9 matters in the line above!!!)
 
 Here's a sample run of the program (user input is in bold italics):
 
-Enter temperature in Fahrenheit: 76 
+Enter temperature in Fahrenheit: 76
 
 Temperature: 76.0F = 24.444444444444443C
 
@@ -30,3 +30,20 @@ if __name__ == '__main__':
 ```
 
 ## Solution
+
+```bash
+def main():
+    # Prompt the user to enter temperature in Fahrenheit
+    degrees_fahrenheit = float(input("Enter temperature in Fahrenheit: "))
+
+    # Convert Fahrenheit to Celsius using the given formula
+    degrees_celsius = (degrees_fahrenheit - 32) * 5.0 / 9.0
+
+    # Print the result with both Fahrenheit and Celsius values
+    print(f"Temperature: {degrees_fahrenheit}F = {degrees_celsius}C")
+
+
+# Ensure the script runs only when executed directly
+if __name__ == '__main__':
+    main()
+```
