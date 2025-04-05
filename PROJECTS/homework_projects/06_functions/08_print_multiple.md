@@ -4,13 +4,13 @@ Fill out print_multiple(message, repeats), which takes as parameters a string me
 
 Here's a sample run of the program (user input is in blue):
 
-Please type a message: Hello! 
-Enter a number of times to repeat your message: 6 
-Hello! 
-Hello! 
-Hello! 
-Hello! 
-Hello! 
+Please type a message: Hello!
+Enter a number of times to repeat your message: 6
+Hello!
+Hello!
+Hello!
+Hello!
+Hello!
 Hello!
 
 ## Starter Code
@@ -28,6 +28,7 @@ if __name__ == '__main__':
 
 ## Solution
 
+```bash
 def print_multiple(message: str, repeats: int):
     for i in range(repeats):
         print(message)
@@ -42,3 +43,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+```
